@@ -1,6 +1,6 @@
 @font-face {
     font-family:'Jing Yi Hand';
-    src:url('assets/fonts/Myfont-Regular.ttf') format('truetype');
+    src:url('../assets/fonts/Myfont-Regular.ttf') format('truetype');
     font-weight:normal;
     font-style:normal;
     font-display:swap;
