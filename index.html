@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Jing Yi — Data Science Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Space+Grotesk:wght@500;600;700&family=Permanent+Marker&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- signature pipeline nav -->
+  <nav class="pipeline-nav" aria-label="Section navigation">
+    <svg width="14" height="320" viewBox="0 0 14 320">
+      <path class="pipeline-track" d="M7,10 L7,310"></path>
+      <path class="pipeline-fill" id="pipelineFill" d="M7,10 L7,310" pathLength="1000"></path>
+      <g id="pipelineNodes"></g>
+    </svg>
+  </nav>
+
+  <!-- ===================== SECTION 0 ===================== -->
+  <section class="landing-hero" id="sec-landing" data-label="WELCOME">
+    <div class="pop-layer" id="popLayer">
+      <div class="pop-card" data-hx="-340" data-hy="-230" data-rot="-12" data-delay="0.02" style="width:92px;">
+        <img src="assets/images/stickers/cassette.png" alt="" draggable="false" />
+      </div>
+      <div class="pop-card" data-hx="320" data-hy="-250" data-rot="9" data-delay="0.10" style="width:78px;">
+        <img src="assets/images/stickers/camera.png" alt="" draggable="false" />
+      </div>
+      <div class="pop-card" data-hx="-390" data-hy="200" data-rot="-8" data-delay="0.18" style="width:62px;">
+        <img src="assets/images/stickers/star.png" alt="" draggable="false" />
+      </div>
+      <div class="pop-card" data-hx="350" data-hy="220" data-rot="10" data-delay="0.26" style="width:66px;">
+        <img src="assets/images/stickers/heart.png" alt="" draggable="false" />
+      </div>
+      <div class="pop-card" data-hx="-450" data-hy="-20" data-rot="6" data-delay="0.34" style="width:88px;">
+        <img src="assets/images/stickers/capybara.png" alt="" draggable="false" />
+      </div>
+      <div class="pop-card" data-hx="380" data-hy="-20" data-rot="-6" data-delay="0.42" style="width:84px;">
+        <img src="assets/images/stickers/awesome.png" alt="" draggable="false" />
+      </div>
+    </div>
+
+    <div class="center-tag reveal"><span>Jing Yi's</span><span>Portfolio</span></div>
+    <div class="scroll-hint mono reveal reveal-delay-2">SCROLL</div>
+  </section>
+
+  <!-- ===================== SECTION 1 ===================== -->
+  <section class="section hero" id="sec-about" data-label="ABOUT / EXPERIENCE">
+    <div class="hero-top">
+      <div class="hero-curves" aria-hidden="true">
+        <svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+          <path class="curve" id="heroC1" d="" />
+          <path class="curve" id="heroC2" d="" />
+          <path class="curve" id="heroC3" d="" />
+        </svg>
+      </div>
+
+      <div class="lanyard-wrap">
+        <div class="lanyard-clip"></div>
+        <svg class="lanyard-strap" xmlns="http://www.w3.org/2000/svg" viewBox="-400 0 800 600">
+          <path class="lanyard-strap-path" id="lanyardStrapPath" d="" />
+        </svg>
+        <div class="lanyard-card" id="lanyardCard">
+          <div class="lanyard-photo">
+            <img src="assets/images/profile.jpg" alt="Jing Yi">
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-kicker mono reveal">HELLO, I'M</div>
+      <h1 class="hero-name reveal reveal-delay-1">Jing Yi</h1>
+      <p class="hero-bio reveal reveal-delay-2">
+        I'm a Computer Science student passionate about data science, AI, and leveraging technology to solve meaningful problems. I enjoy uncovering insights from data and building cool stuff, driven by a strong interest in data structures and algorithms.<br><br>
+        I love seeing how AI is transforming industries and reshaping the way people live and work, which motivates me to continuously learn, explore new technologies, and contribute to meaningful innovation.
+      </p>
+      <div class="hero-cta reveal reveal-delay-3">
+        <a class="btn primary" href="#sec-experience">See my work</a>
+        <a class="btn" href="assets/resume/resume.pdf" target="_blank" rel="noopener">Download résumé</a>
+      </div>
+      <div class="scroll-hint mono reveal reveal-delay-3">SCROLL</div>
+    </div>
+
+    <h2 class="display timeline-title reveal" id="sec-experience">Experience</h2>
+    <div class="timeline reveal">
+      <div class="timeline-row">
+        <div class="t-date mono">JUL 2026 – PRESENT</div>
+        <div class="t-role display">Publicity Executive, Robogals Monash Malaysia</div>
+        <div class="t-desc">Collaborated within a cross-disciplinary committee of engineering and science students, creating promotional content for social media and event campaigns to spread STEM awareness — working alongside members from varied academic backgrounds to plan and execute publicity strategies for workshops and outreach activities.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SECTION 2 ===================== -->
+  <section class="section" id="sec-projects" data-label="PROJECTS / SKILLS">
+    <div class="sec2-head reveal">
+      <div>
+        <div class="eyebrow">WHAT I'VE BUILT</div>
+        <h2 class="display sec2-title">Projects</h2>
+      </div>
+    </div>
+
+    <div class="project-grid">
+      <div class="project-card reveal">
+        <div class="project-num mono">01</div>
+        <a class="project-title display" href="https://jingyi-007.github.io/FIT2179-DataVis2" target="_blank" rel="noopener">Beyond the 95%: The Learning Divide ↗</a>
+        <p class="project-desc">An interactive data-story site analyzing literacy and education access disparities across Malaysian states — choropleth maps and linked filters (dropdown, slider) let readers explore school density, enrolment, and completion rates by state and year. Synthesized Kaggle and OpenDOSM data to surface a gender and urban–rural "learning divide" despite 95% national literacy.</p>
+        <div class="tag-row">
+          <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">Vega-Lite</span>
+        </div>
+      </div>
+      <div class="project-card reveal reveal-delay-1">
+        <div class="project-num mono">02</div>
+        <a class="project-title display" href="https://public.tableau.com/app/profile/jing.yi.loh/viz/Assignment1_v1_draft/Dashboard1" target="_blank" rel="noopener">Malaysia Internet & Social Media Analytics Dashboard ↗</a>
+        <p class="project-desc">Cleaned and combined internet-usage and social-media datasets from Our World in Data and Kaggle into an interactive Tableau dashboard comparing internet penetration across Southeast Asia and global markets — revealing Malaysia leads the SEA region at nearly 97% internet penetration.</p>
+        <div class="tag-row">
+          <span class="tag">Tableau</span><span class="tag">Data Cleaning</span>
+        </div>
+      </div>
+      <div class="project-card reveal reveal-delay-2">
+        <div class="project-num mono">03</div>
+        <div class="project-title display">Student Performance Prediction</div>
+        <p class="project-desc">Cleaned and preprocessed a student dataset (missing-value treatment, feature scaling), then trained and compared SVM, Decision Tree, and Random Forest classifiers for multi-class grade prediction — reaching up to 75% accuracy with an RBF-kernel SVM. EDA identified study time and absenteeism as the strongest predictors of academic risk.</p>
+        <div class="tag-row">
+          <span class="tag">Python</span><span class="tag">Pandas</span><span class="tag">scikit-learn</span><span class="tag">Jupyter</span>
+        </div>
+      </div>
+      <div class="project-card reveal reveal-delay-3">
+        <div class="project-num mono">04</div>
+        <div class="project-title display">Clear Away Database Design</div>
+        <p class="project-desc">Designed a full conceptual ERD (Crow's Foot notation) for a waste-collection business, modelling entities, relationships, and cardinality from a real-world case study. Built a logical data model in Oracle Data Modeler and generated a working SQL schema with constraints, check clauses, and documented business rules — version-controlled with Git.</p>
+        <div class="tag-row">
+          <span class="tag">Oracle Data Modeler</span><span class="tag">SQL</span><span class="tag">Git</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="skills-wrap reveal">
+      <div class="strip-title display">Skills</div>
+      <div class="skill-cloud">
+        <span class="skill-chip mono">Python</span>
+        <span class="skill-chip mono">SQL</span>
+        <span class="skill-chip mono">HTML</span>
+        <span class="skill-chip mono">CSS</span>
+        <span class="skill-chip mono">R</span>
+        <span class="skill-chip mono">Bash</span>
+        <span class="skill-chip mono">MongoDB</span>
+        <span class="skill-chip mono">Pandas</span>
+        <span class="skill-chip mono">scikit-learn</span>
+        <span class="skill-chip mono">Tableau</span>
+        <span class="skill-chip mono">Oracle Data Modeler</span>
+        <span class="skill-chip mono">GitHub</span>
+        <span class="skill-chip mono">GitLab</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SECTION 4 ===================== -->
+  <!-- ===================== ASCII FLOW TRAIL ===================== -->
+  <section class="ascii-section" id="sec-ascii" data-label="PLAYGROUND">
+    <canvas id="asciiCanvas"></canvas>
+    <div class="ascii-hint mono">MOVE YOUR CURSOR</div>
+  </section>
+
+  <section class="section connect" id="sec-connect" data-label="CONNECT">
+    <div class="reveal">
+      <div class="eyebrow">LET'S TALK</div>
+      <h2 class="display connect-title">Say <span class="accent">hello</span></h2>
+      <p class="connect-sub">I'm always up for a good convo — data, AI, or whatever cool thing you're building. I'm currently looking for an internship, so if that sounds like a fit, reach out and let's connect!</p>
+      <div class="social-list">
+        <a class="social-row" href="https://linkedin.com/in/jing-yi-loh" target="_blank" rel="noopener">LinkedIn <span class="arrow mono">→</span></a>
+        <a class="social-row" href="https://github.com/Jingyi-007" target="_blank" rel="noopener">GitHub <span class="arrow mono">→</span></a>
+        <a class="social-row" href="mailto:xxjingyixx@gmail.com?subject=Hello%20from%20your%20portfolio!">Email <span class="arrow mono">→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <span class="footer-hand">© <span id="year"></span> Jing Yi Loh</span>
+  </footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
