@@ -5,9 +5,10 @@
     font-style:normal;
     font-display:swap;
   }
+  
   :root{
     --cream:#FFF7EC;
-    --paper:#FFFCF6;
+    --paper:#110c04;
     --ink:#070D0D;
     --ink-soft:#7A6A63;
     --iris:#442F2A;
