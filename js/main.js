@@ -1,5 +1,6 @@
 document.getElementById('year').textContent = new Date().getFullYear();
 
+
   // ---------- background curves (landing + hero) ----------
   function lissajous(a, b, delta, scale, cx, cy, steps){
     let d = "";
